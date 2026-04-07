@@ -1,0 +1,18 @@
+{
+  "name": "©𝕀𝕒𝕞𝕕𝕖𝕓𝕝𝕒𝕢 bot",
+  "description": "WhatsApp MD bot (Baileys)",
+  "repository": "",
+  "keywords": ["whatsapp", "baileys", "bot", "node"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "env": {
+    "SESSION_ID": {
+      "description": "©𝕀𝕒𝕞𝕕𝕖𝕓𝕝𝕒𝕢 bot session string (e.g. KnightBot!<base64_compressed_data>)",
+      "required": false,
+      "value": ""
+    }
+  }
+}
